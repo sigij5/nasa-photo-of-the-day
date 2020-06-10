@@ -1,12 +1,13 @@
 
-// import React, {useState} from 'react';
+import React, {useState} from 'react';
 
 
-// const Photo = props => {
-//     const { BASE_URL } = props
-//     const { API_KEY } = props
+const Photo = props => {
+    const { src } = props
 
-//     return(
-        
-//     )
-// }
+    return(
+        <img src={src} alt='Orion'/>
+    )
+}
+
+export default Photo;

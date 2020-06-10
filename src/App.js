@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import axios from 'axios'
 import { BASE_URL, API_KEY } from "./secrets";
-import postPage from './components/PostsContainer/postPage'
+import Post from './components/PostsContainer/postPage'
 
 
 function App() {
@@ -27,8 +27,8 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
       </p>
-      <img src={photoObj.url} alt='Orion'/>
-      {/* <postPage photoObj={photoObj} /> */}
+      {/* <img src={photoObj.url} alt='Orion'/> */}
+      <Post photoObj={photoObj} />
     </div>
   );
 }

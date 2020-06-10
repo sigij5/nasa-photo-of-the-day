@@ -5,8 +5,9 @@ import Info from './postHeader'
 
 
 
-const postPage = props => {
+const Post = props => {
     const { photoObj } = props
+    console.log(photoObj)
 
     return (
         <div className='post-container'>
@@ -16,4 +17,4 @@ const postPage = props => {
     );
 };
 
-export default postPage;
+export default Post;
