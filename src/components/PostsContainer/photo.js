@@ -11,10 +11,11 @@ const Image = styled.img`
 
 const Photo = props => {
     const { src } = props
+    const { alt } = props
 
 
     return(
-        <Image src={src} alt='Orion'/>
+        <Image src={src} alt={alt}/>
     );
 }
 

@@ -27,7 +27,7 @@ const Post = props => {
     return (
         <ContainerSection>
             <PhotoSection>
-                <Photo src={nasaData.url}/>
+                <Photo src={nasaData.url} alt={nasaData.title}/>
             </PhotoSection>
             <Info nasaData={nasaData}/>
         </ContainerSection>
