@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+div, section{
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* .photo {
+  width: 800px;
+
+} */
+
+div {
+  max-width: 100%;
+
+}
+
+img {
+  object-fit: contain;
 }
