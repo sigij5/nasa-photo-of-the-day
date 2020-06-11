@@ -1,2 +1,2 @@
 export const BASE_URL  = 'https://api.nasa.gov/planetary/'
-export const API_KEY = 'P5WBTUYncMMi4gVW4oR0Xr6HtMt5hsYkf3KRHJyr'
+export const API_KEY = '2fneYTbGyMNP4gcRucow2RqdrceWHBA9APEI4xGc'
